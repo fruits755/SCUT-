@@ -1,0 +1,28 @@
+<!--pages/home/subPages/detail/detail.wxml-->
+<view class="total">
+  <view class="top">
+    <view class="userInfo">
+      <image class="image" src="{{information.image}}" mode="widthFix" />
+      <view class="userInfo_q">
+        <text>{{information.nickname}}</text>
+        <text class="userInfo_q_t">询问信息</text>
+      </view>
+    </view>
+    <view class="question">
+      {{information.question}}
+    </view>
+    <view class="time">
+      {{information.loadtime}}
+    </view>
+    <button class="add" bind:tap="addcomment">添加留言</button>
+  </view>
+  <view class="comment">
+    <text>留言区({{information.comment.length}})</text>
+  </view>
+  <block wx:for="{{information.comment}}" wx:key="index">
+    <view class="commentInf">
+      <view class="commentInf_c">{{item.massage}}</view>
+      <view class="commentInf_t">{{item.time}}</view>
+    </view>
+  </block>
+</view>

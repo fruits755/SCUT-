@@ -1,0 +1,91 @@
+/* 拉取到的信息block */
+
+.inf {
+  display: block;
+  background-color: white;
+  margin: 20rpx;
+  border-bottom: 8rpx solid rgb(70, 139, 243);
+}
+
+/* 用户信息 */
+
+.userInfo {
+  display: flex;
+}
+
+.userInfo image {
+  width: 100rpx;
+  margin: 10rpx;
+  border-radius: 500rpx;
+}
+
+.userInfo_q {
+  display: flex;
+  flex-direction: column;
+}
+
+.userInfo_q_t {
+  background-color: #d2f1f0;
+  border-radius: 10rpx;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+}
+
+/* 跑腿信息 */
+
+.infomation {
+  font-size: 34rpx;
+  margin-left: 20rpx;
+  margin-bottom: 10rpx;
+}
+
+/* 酬谢+位置 */
+
+.hebing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.salary {
+  color: #0081ff;
+  margin-left: 20rpx;
+  font-size: 30rpx;
+}
+
+.locate {
+  margin-right: 24rpx;
+  color: #8799a3;
+  font-size: 30rpx;
+}
+
+/* 联系方式微信号+copy */
+
+.wx_copy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wxnumber {
+  color: #1cbbb4;
+  margin-left: 20rpx;
+  font-size: 28rpx;
+  margin-top: 15rpx;
+}
+
+/* 发布时间 */
+
+.time {
+  text-align: right;
+  font-size: 24rpx;
+  margin-bottom: 10rpx;
+}
+
+/* 复制按钮 */
+
+.copy {
+  background-color: transparent;
+  font-size: 30rpx;
+}
+
+
+

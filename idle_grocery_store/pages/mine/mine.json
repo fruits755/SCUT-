@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "d-aboutUs":"./subComponent/d-aboutUs/d-aboutUs",
+    "d-myReq": "./subComponent/d-myReq/d-myReq",
+    "d-myidle": "./subComponent/d-myidle/d-myidle",
+    "d-myinf": "./subComponent/d-myinf/d-myinf"
+    
+  },
+  "navigationBarTitleText": "我的"
+}

@@ -1,0 +1,15 @@
+var sub = function(str, startLength, endLength) {
+  if (str.length == 0 || str == undefined) {
+    return "";
+  }
+  var length = str.length;
+  if (length >= startLength + endLength) {
+    return str.substring(0, startLength) + "****" + str.substring(length - endLength, length);
+  } else {
+    return str;
+  }
+}
+
+module.exports = {
+  sub: sub
+}

@@ -1,0 +1,8 @@
+<block wx:for="{{list}}">
+  <w-myLdle item1="{{item.list}}" />
+    <view class="cancel">
+     <button class="btn1" style="width: 260rpx;height: 80rpx;" bindtap='completeOrder'data-id="{{item._id}}">
+      <text class="btn2">完成订单</text>
+    </button>
+     </view>
+</block>

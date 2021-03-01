@@ -1,0 +1,22 @@
+/* component/d-tab-control/d-tab-control.wxss */
+.tab-control{
+  background: white;
+  height: 88rpx;
+  line-height: 88rpx;
+  display: flex;
+}
+
+.tab-control-item{
+  flex: 1;
+  text-align: center;
+}
+
+.active{
+  color: rgb(25, 0, 255);
+}
+
+.active text{
+  padding: 16rpx 10rpx;
+  border-bottom: 6rpx solid rgb(4, 0, 255)
+
+}

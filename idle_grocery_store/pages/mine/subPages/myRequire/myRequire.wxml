@@ -1,0 +1,20 @@
+<view class="total">
+  <block wx:for="{{information_public}}" wx:key="index">
+    <view class="inf">
+      <view class="button_inf">
+        <text class="userInfo_q_t">跑腿信息:</text>
+        <button class="button" size="mini" bind:tap="cancel" data-index="{{index}}">下架</button>
+      </view>
+      <view class="infomation">
+        {{item.massage}}
+      </view>
+      <view class="hebing">
+        <view class="salary"> 酬谢:{{item.salary}}</view>
+        <view class="locate">邻近位置:{{item.locate}}</view>
+      </view>
+      <view class="time">
+        {{item.loadtime}}
+      </view>
+    </view>
+  </block>
+</view>

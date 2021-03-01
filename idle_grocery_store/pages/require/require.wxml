@@ -1,0 +1,9 @@
+<!-- tab-control -->
+  <w-tab-control title="{{tabControl}}" bind:tap="handleTabCLick" data-index="{{index}}"/>
+  <w-insertInf bind:tanchu="addData" />
+<!--商品展示-->
+<view class='goods'> 
+  <block wx:for="{{goods[currentType].list}}" >
+    <w-goods-item item="{{item}}" id="{{item._id}}" data-visitors="{{item.visitorNum}}" bindtap='visit' />
+  </block>
+</view>

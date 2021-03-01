@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "w-tab-control": "/component/w-tab-control/w-tab-control",
+    "w-insertInf": "/component/w-insertInf/w-insertInf",
+    "w-goods-item": "/component/w-goods-item/w-goods-item"
+  },
+  "navigationBarTitleText": "SCUT解惑铺",
+  "enablePullDownRefresh": true
+}

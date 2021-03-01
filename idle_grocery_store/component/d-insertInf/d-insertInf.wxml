@@ -1,0 +1,5 @@
+<!--component/d-back-top/d-back-top.wxml-->
+<view class="insertInf"
+      bindtap="handleTap">
+  <image class="image" src="/resources/image/icon/insert.png" />
+</view> 

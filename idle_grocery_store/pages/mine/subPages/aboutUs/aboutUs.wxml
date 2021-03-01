@@ -1,0 +1,13 @@
+<view class="total">
+  <view class="total_1">
+    <text class="text">关于我们</text>
+    <text class="text" decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;闲置杂货铺是我们看到校园信息只能通过微信群交流后，产生的想法。\n</text>
+    <text class="text" decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;利用微信小程序，减去群聊消息太多的烦恼，解决群聊人数有限的问题。\n</text>
+  </view>
+  <view class="contact">
+    <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;如有问题，请联系:\n</text>
+    <text class=" contact_1" selectable='true' decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1013688750@qq.com\n</text>
+    <text class=" contact_2" selectable='true' decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1498817506@qq.com\n</text>
+    <text class=" contact_3" selectable='true' decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3412472182@qq.com\n</text>
+  </view>
+</view>

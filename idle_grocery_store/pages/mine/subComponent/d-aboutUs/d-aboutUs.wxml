@@ -1,0 +1,4 @@
+<!--pages/mine/subComponent/d-aboutUs/d-aboutUs.wxml-->
+  <view>
+    <button bindtap="navigateTo" >关于我们</button>
+  </view>

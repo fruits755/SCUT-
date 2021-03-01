@@ -1,0 +1,7 @@
+/* pages/require/require.wxss */
+.tab-control{
+  background: rgb(0,127,255);
+  height: 88rpx;
+  line-height: 88rpx;
+  display: flex;
+}

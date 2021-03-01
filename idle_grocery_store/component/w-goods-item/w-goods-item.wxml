@@ -1,0 +1,35 @@
+<!--component/w-goods-item/w-goods-item.wxml-->
+<view class='goods-item'>
+  <!--留以备用-->
+  <!--image src="{{item.show.img}}"/-->
+  <!--测试用-->
+      
+     
+     <block class='show0'>
+      <view calss='show'>
+        <view class='display'>
+          <image class="img" src='{{item.headPhoto}}'  mode='heightFix'></image>
+          <view class="show1">
+                <text class='style1'>{{item.name}}</text>
+                <text class='style'>{{item.Des}}</text>
+          </view>
+        </view>
+      <view >
+        <view class='show2' wx:if="{{item.goodsPhoto[0]!=''}}"> 
+          <view wx:for="{{item.goodsPhoto}}" class="goodsPhoto1">
+          <view>
+          <image  src='{{item}}' class='goodsPhoto' mode='widthFit' style="width:200rpx;height:200rpx;"></image></view>
+          </view>
+        </view>
+          <text class='types'>#{{item.goodsType}}</text>
+            <view class="display1">
+              <view class='time'>{{item.time}}</view>
+              <view class='visitor'>
+                <text class='visitor'>浏览 | {{item.visitorNum}}</text>
+                <!-- <text class='visitor'></text> -->
+              </view>
+            </view>
+        </view>
+      </view>
+     </block>
+</view>

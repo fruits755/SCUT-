@@ -1,0 +1,13 @@
+<!--component/d-swiper/d-swiper.wxml-->
+<swiper class='swiper' 
+        autoplay
+        indicator-active-color="#007FFF"
+        circular="true"
+        interval="3000"
+        indicator-dots>
+  <block wx:for="{{list}}" wx:key="index">
+    <swiper-item calss='swiper-item'>
+      <image class="img"src="{{item}}" mode="widthFix" />
+    </swiper-item>
+  </block>
+</swiper>

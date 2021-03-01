@@ -1,0 +1,36 @@
+.total {
+  background-color: #cce6ff;
+  margin: 40rpx;
+  margin-top: 100rpx;
+  border-radius: 20rpx;
+}
+
+.total_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  margin-top: 10rpx;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rpx;
+}
+
+.contact_1 {
+  margin-top: 20rpx;
+}
+
+.contact_2 {
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+
+.contact_3 {
+  margin-bottom: 40rpx;
+}

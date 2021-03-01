@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "d-swiper":"/component/d-swiper/d-swiper",
+    "d-tab-control": "/component/d-tab-control/d-tab-control",
+    "d-search": "/component/d-search/d-search",
+    "d-swiper-home": "/pages/home/subComponent/d-swiper-home/d-swiper"
+  },
+  "navigationBarTitleText": "闲置杂货铺"
+}

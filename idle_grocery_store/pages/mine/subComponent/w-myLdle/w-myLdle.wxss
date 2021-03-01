@@ -1,0 +1,46 @@
+.firstLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.goods {
+  display: flex;
+  flex-direction: row;
+  height: 200rpx;
+  width: 200rpx;
+}
+
+.secondLine {
+  display: flex;
+  height: 120rpx;
+  flex-direction: column;
+  position: relative;
+  top: 30rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.type {
+  font-size: 0.8rem;
+}
+
+.time {
+  font-size: 0.8rem;
+}
+
+.item {
+  height: auto;
+  border-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+}
+
+.Des {
+  font-size: 0.8rem;
+  word-break: break-all; /*强制英文单词自动换行*/
+  margin: 10rpx;
+}

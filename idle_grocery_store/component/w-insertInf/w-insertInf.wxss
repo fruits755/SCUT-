@@ -1,0 +1,12 @@
+/* component/w-insertInf.wxss */
+.insertInf{
+  position: fixed;
+  right: 16rpx;
+  bottom: 40rpx;
+  z-index: 1;
+}
+
+.insertInf image{
+  width: 100rpx;
+  height: 100rpx;
+}

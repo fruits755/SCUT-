@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+        "d-tab-control": "/component/d-tab-control/d-tab-control",
+        "d-insertInf": "/component/d-insertInf/d-insertInf",
+        "d-insertWindow": "/component/d-insertWindow/d-insertWindow"
+  },
+  "navigationBarTitleText": "SCUT解惑铺"
+}

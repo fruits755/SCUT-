@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "w-myLdle": "/pages/mine/subComponent/w-myLdle/w-myLdle"
+  },
+  "navigationBarTitleText": "我的闲置",
+  "enablePullDownRefresh": true
+}

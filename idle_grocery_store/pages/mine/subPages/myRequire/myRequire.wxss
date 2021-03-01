@@ -1,0 +1,65 @@
+/* 拉取到的信息block */
+
+.inf {
+  display: block;
+  background-color: white;
+  margin: 20rpx;
+  border-bottom: 8rpx solid rgb(70, 139, 243);
+}
+
+/* "跑腿信息"这个标题+button */
+
+.button_inf {
+  display: flex;
+  justify-content: space-between;
+}
+
+.userInfo_q_t {
+  margin-top: 10rpx;
+  background-color:#e7ebed;
+  border-radius: 10rpx;
+  font-size: 35rpx;
+}
+
+.button {
+  color: #0081ff;
+
+  right:20rpx;
+}
+
+/* 跑腿信息 */
+
+.infomation {
+  font-size: 36rpx;
+  margin-left: 20rpx;
+  margin-bottom: 10rpx;
+  margin-top: 20rpx;
+}
+
+/* 酬谢+位置 */
+
+.hebing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.salary {
+  color: #0081ff;
+  margin-left: 20rpx;
+  font-size: 28rpx;
+}
+
+.locate {
+  margin-right: 30rpx;
+  color: #8799a3;
+  font-size: 28rpx;
+}
+
+/* 发布时间 */
+
+.time {
+  text-align: right;
+  font-size: 32rpx;
+  margin-bottom: 10rpx;
+  margin-top:10rpx;
+}

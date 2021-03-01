@@ -1,0 +1,42 @@
+/* 添加问题input */
+
+.box {
+  background-color: #fff;
+}
+
+.item {
+  display: flex;
+  margin-left: 30rpx;
+  padding-right: 30rpx;
+  border-bottom: 5rpx solid #f0f0f0;
+}
+
+.item input {
+  flex: 1;
+  font-size: 32rpx;
+  color: black;
+  text-align: right;
+  margin-top: 28rpx;
+}
+
+.item label {
+  display: block;
+  width: 160rpx;
+  line-height: 3;
+  font-size: 34rpx;
+  color: rgb(25, 46, 54);
+}
+
+.button_b {
+  margin: 20rpx;
+}
+
+.complete {
+  width: 640rpx;
+  height: 80rpx;
+  line-height: 50rpx;
+  margin-top: 40rpx;
+  background-color: #98f3c9;
+  color: black;
+  font-size: 40rpx;
+}

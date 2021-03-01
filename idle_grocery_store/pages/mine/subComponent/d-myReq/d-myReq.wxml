@@ -1,0 +1,4 @@
+<!--pages/mine/subComponent/d-myReq/d-myReq.wxml-->
+  <view>
+    <button bindtap="navigateTo" class="com">我的跑腿</button>
+  </view>

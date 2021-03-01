@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "d-swiper": "/component/d-swiper/d-swiper",
+    "d-insertInf": "/component/d-insertInf/d-insertInf",
+    "d-swiper-home": "/pages/home/subComponent/d-swiper-home/d-swiper"
+  },
+  "navigationBarTitleText": "SCUT解惑铺"
+}

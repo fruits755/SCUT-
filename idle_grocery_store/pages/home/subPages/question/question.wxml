@@ -1,0 +1,10 @@
+<!--pages/home/subPages/question/question.wxml-->
+<view class="box">
+  <view class="item">
+    <label>询问信息:</label>
+    <input class="inputMassage" placeholder='请输入你的问题' bindinput="inputMassage"></input>
+  </view>
+  <view>
+    <button class="complete" bind:tap="onload">提问</button>
+  </view>
+</view>

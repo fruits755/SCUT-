@@ -1,0 +1,23 @@
+/* pages/mine/subComponent/d-login/d-login.wxss */
+.loginbutton{
+  background-color:#fff;
+}
+.userInfo {
+  background-color: #fff;
+}
+
+.userInfo-image{
+    display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 250rpx;
+  height: 250rpx;
+  margin: 0 auto;
+}
+
+.nickName {
+  margin-bottom: 10rpx;
+  text-align: center;
+}

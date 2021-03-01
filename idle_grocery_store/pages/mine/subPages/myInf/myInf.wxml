@@ -1,0 +1,29 @@
+<!--pages/mine/subPages/myInf/myInf.wxml-->
+<view class="total">
+  <block wx:for="{{information_public}}" wx:key="index">
+    <view>
+      <view class="inf">
+        <view class="userInfo">
+          <image class="image" src="{{item.image}}" mode="widthFix" />
+          <view class="userInfo_q">
+            <text>{{item.nickname}}</text>
+            <text class="userInfo_q_t">询问信息</text>
+          </view>
+          <button class="button"  bind:tap="cancel" data-index="{{index}}">删除该问题</button>
+        </view>
+        <view class="question" bindtap="enterDetial" data-index="{{index}}">
+          {{item.question}}
+        </view>
+        <view class="hebing" bindtap="enterDetial" data-index="{{index}}">
+          <view class="time">
+            {{item.loadtime}}
+          </view>
+          <view class="comment">
+            <image src="/resources/image/icon/comment.png" mode="widthFix" />
+            <text>评论数:{{item.comment.length}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>

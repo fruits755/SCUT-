@@ -1,0 +1,92 @@
+/* 全局 */
+
+.total {
+  background-color: #f1f1f1;
+}
+
+/* 上部 */
+
+.top {
+  background-color: white;
+}
+
+/* 用户信息 */
+
+.userInfo {
+  display: flex;
+}
+
+.userInfo image {
+  width: 100rpx;
+  margin: 10rpx;
+  border-radius: 500rpx;
+}
+
+.userInfo_q {
+  display: flex;
+  flex-direction: column;
+}
+
+.userInfo_q_t {
+  background-color: #d2f1f0;
+  border-radius: 10rpx;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+}
+
+/* 发布的问题 */
+
+.question {
+  font-size: 34rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-bottom: 30rpx;
+}
+
+/* 发布时间 */
+
+.time {
+  font-size: 32rpx;
+  margin-left: 20rpx;
+}
+
+/* 评论区标题 */
+
+.comment {
+  margin-top: 8rpx;
+  height: 100rpx;
+  background-color: white;
+  font-size: 45rpx;
+  display: flex;
+}
+
+.comment text {
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  font-size: 37rpx;
+}
+
+/* 留言区内容 */
+
+.commentInf {
+  background-color: white;
+  display: flex;
+  margin-top: 8rpx;
+  margin-bottom: 8rpx;
+  flex-direction: column;
+}
+
+.commentInf_c {
+  font-family: Courier New;
+  font-size: 38rpx;
+  margin-top:10rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-bottom: 10rpx;
+}
+
+.commentInf_t {
+  text-align: right;
+  font-size: 32rpx;
+  margin-right: 30rpx;
+}

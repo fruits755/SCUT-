@@ -1,0 +1,24 @@
+.loginbutton{
+  background-color:#fff;
+}
+.userInfo {
+  background-color: #fff;
+}
+
+.userInfo-image{
+    display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 250rpx;
+  height: 250rpx;
+  margin: 0 auto;
+  border-radius: 125px;
+  margin-top: 100rpx;
+}
+
+.nickName {
+  margin-bottom: 10rpx;
+  text-align: center;
+}

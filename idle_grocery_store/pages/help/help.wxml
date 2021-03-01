@@ -1,0 +1,38 @@
+
+
+<!-- 引入wxs脚本 -->
+<wxs src="../../wxs/subutil.wxs" module="tools" />
+<!-- 添加发布信息 -->
+<d-insertInf bind:tanchu="handletanchu" />
+<!-- tab-contron -->
+<d-tab-control bind:index="getIndex" title="{{tabControl}}" />
+<!-- 发布的信息 -->
+<view class="total">
+  <block wx:for="{{currentInformation}}" wx:key="index">
+    <view class="inf">
+      <view class="userInfo">
+        <image class="image" src="{{item.image}}" mode="widthFix" />
+        <view class="userInfo_q">
+          <text>{{item.nickname}}</text>
+          <text class="userInfo_q_t">跑腿信息</text>
+        </view>
+      </view>
+      <view class="infomation">
+        {{item.massage}}
+      </view>
+      <view class="hebing">
+        <view class="salary"> 酬谢:{{item.salary}}</view>
+        <view class="locate">邻近位置:{{item.locate}}</view>
+      </view>
+      <view class="wx_copy">
+        <view class="wxnumber">
+          联系方式:{{tools.sub(item.wx,1,1)}}
+        </view>
+        <button class="copy" bind:tap="copy" data-copy_index="{{index}}">复制</button>
+      </view>
+      <view class="time">
+        {{item.loadtime}}
+      </view>
+    </view>
+  </block>
+</view>

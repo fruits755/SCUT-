@@ -1,0 +1,4 @@
+<!--pages/mine/subComponent/d-aboutUs/d-aboutUs.wxml-->
+  <view>
+    <button bindtap="navigateTo" class="com">我的询问</button>
+  </view>

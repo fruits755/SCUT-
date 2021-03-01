@@ -1,0 +1,11 @@
+/* component/d-back-top/d-back-top.wxss */
+.insertInf{
+  position: fixed;
+  right: 16rpx;
+  bottom: 16rpx;
+}
+
+.insertInf image{
+  width: 100rpx;
+  height: 100rpx;
+}

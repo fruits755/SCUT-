@@ -1,0 +1,41 @@
+<!--pages/sell/sell.wxml-->
+  <view class="input">
+    <text class="title">商品描述</text>
+    <input placeholder='请输入商品描述-35字以内' bindinput="inputDes" maxlength="35" class="input1"></input>
+  </view>
+  <view class="input">
+    <text class="title">联系方式</text>
+    <input placeholder='请输入联系方式' bindinput="inputWx" class="input1"></input>
+  </view>
+  <view class="input">
+    <text class="title">商品价格</text>
+    <input placeholder='非必填' bindinput="inputValue" maxlength="35" class="input1"></input>
+  </view>
+  <view class="button">
+  <button bindtap="upload_picture" class="buttonup" style="width:100%;height:100rpx" class="btn1">上传商品图片-3张以内\n</button>
+  <view>
+  <button bindtap="upload_picture1" class="buttonup" style="width:100%;height:100rpx" class="btn1">上传背景图片（最多一张）\n</button>
+  </view>
+    <!-- 按钮中套选择器 -->
+  <view>
+    <button class="btn1" style="width:100%;height:100rpx">
+      <view>
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <view wx:if="{{unclick}}">
+            请选择商品类型
+          </view>
+          <view wx:if="{{!unclick}}">
+            商品类型选择：{{array[index]}}
+          </view>
+        </picker>
+      </view>
+    </button>
+  </view>
+<button bindtap="addData" class="add">添加数据</button>
+  </view>
+    <view class="img">
+    <view class="img" wx:for="{{goodsAddress2}}">
+    <image class='img1' src="{{item}}"> </image>
+    </view>
+  </view>
+  

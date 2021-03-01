@@ -1,0 +1,16 @@
+.cancel{
+  position: relative;
+  left: 230rpx;
+  bottom: 95rpx;
+}
+.btn1{
+  background-color: #f1f1f1;
+  
+  border-radius: 98rpx;
+}
+.btn2{
+  font-size: 0.9rem;
+  position: relative;
+  bottom: 3rpx;
+
+}

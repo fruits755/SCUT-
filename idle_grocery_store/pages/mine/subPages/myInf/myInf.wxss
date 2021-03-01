@@ -1,0 +1,85 @@
+/* 用户信息 */
+
+.userInfo {
+  display: flex;
+}
+
+.userInfo image {
+  width: 100rpx;
+  margin: 10rpx;
+  border-radius: 500rpx;
+}
+
+.userInfo_q {
+  display: flex;
+  flex-direction: column;
+}
+
+.userInfo_q_t {
+  background-color: #d2f1f0;
+  border-radius: 10rpx;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+}
+
+/* 问题已解答按钮 */
+
+.button {
+  height: 79rpx;
+  margin-top: 40rpx;
+  color: #0081ff;
+}
+
+/* 全局 */
+
+.total {
+  background-color: #f1f1f1;
+}
+
+/* block块中信息 */
+
+.inf {
+  display: block;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 10rpx;
+  margin: 10rpx;
+}
+
+/* 发布的问题 */
+
+.question {
+  font-size: 35rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-bottom: 30rpx;
+}
+
+/* 时间+评论 */
+.hebing{
+  display: flex;
+  justify-content: space-between;
+}
+/* 评论 */
+
+.comment {
+  display: flex;
+  margin-right: 20rpx;
+  margin-bottom: 10rpx;
+}
+
+.comment image {
+  width: 50rpx;
+}
+
+.comment text {
+  font-size: 30rpx;
+  margin-top: 7rpx;
+}
+
+/* 发布时间 */
+
+.time {
+  font-size: 32rpx;
+  margin-left: 20rpx;
+}

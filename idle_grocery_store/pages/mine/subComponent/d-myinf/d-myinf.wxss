@@ -1,0 +1,5 @@
+/* pages/mine/subComponent/d-aboutUs/d-aboutUs.wxss */
+.com{
+
+  margin-top: 125rpx;
+}

@@ -1,0 +1,60 @@
+<view class="total">
+  <!-- 搜索框 -->
+  <view class="search">
+    <input type='text' value='{{inputmassage}}' placeholder="请输入想要的内容" confirm-type='search' bindinput="Input" bindconfirm="inputComplete"></input>
+    <image wx:if="{{search}}" src="/resources/image/icon/cancel.png" bind:tap="cancel_search" />
+    <!-- <image src="/resources/image/search/search.png" /> -->
+  </view>
+  <!-- 轮播图 -->
+  <d-swiper list="{{swiper}}" />
+  <!-- 添加按钮 -->
+  <d-insertInf bind:tap="handinsert" />
+  <!-- 发布的信息 -->
+  <view>
+    <block wx:if="{{!search}}" wx:for="{{information}}" wx:key="index">
+      <view class="inf" bind:tap="clickComment" data-index="{{index}}">
+        <view class="userInfo">
+          <image class="image" src="{{item.image}}" mode="widthFix" />
+          <view class="userInfo_q">
+            <text>{{item.nickname}}</text>
+            <text class="userInfo_q_t">询问信息</text>
+          </view>
+        </view>
+        <view class="question">
+          {{item.question}}
+        </view>
+        <view class="comment">
+          <image src="/resources/image/icon/comment.png" mode="widthFix" />
+          <text>评论数:{{item.comment.length}}</text>
+        </view>
+        <view class="time">
+          {{item.loadtime}}
+        </view>
+      </view>
+    </block>
+  </view>
+  <!-- search搜索到的信息 -->
+  <view>
+    <block wx:if="{{search}}" wx:for="{{search_information}}" wx:key="index">
+      <view class="inf" bind:tap="clickComment" data-index="{{index}}">
+        <view class="userInfo">
+          <image class="image" src="{{item.image}}" mode="widthFix" />
+          <view class="userInfo_q">
+            <text>{{item.nickname}}</text>
+            <text class="userInfo_q_t">询问信息</text>
+          </view>
+        </view>
+        <view class="question">
+          {{item.question}}
+        </view>
+        <view class="comment">
+          <image src="/resources/image/icon/comment.png" mode="widthFix" />
+          <text>评论数:{{item.comment.length}}</text>
+        </view>
+        <view class="time">
+          {{item.loadtime}}
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

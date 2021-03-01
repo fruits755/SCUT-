@@ -1,0 +1,14 @@
+<block class="item">
+  <view class="item">
+    <text class="Des">{{item1.Des}}</text>
+    <view class="firstLine"  wx:if="{{item1.goodsPhoto[0]!=''}}">
+      <view wx:for="{{item1.goodsPhoto}}" class="firstLine">
+        <image src="{{item}}" class="goods"></image>
+      </view>
+    </view>
+    <view class="secondLine">
+      <text class="type">发起人：{{item1.name}}</text>
+      <text class='time'>订单时间:{{item1.time}}</text>
+    </view>
+  </view>
+</block>

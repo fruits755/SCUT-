@@ -1,0 +1,37 @@
+<!--pages/help/subPages/tanchuang/tanchuang.wxml-->
+<view>
+  <view class="box">
+    <view class="item">
+      <label>跑腿信息:</label>
+      <input class="inputMassage" placeholder='请输入跑腿信息' bindinput="inputMassage"></input>
+    </view>
+    <view class="item">
+      <label>跑腿酬谢:</label>
+      <input class="inputSalary" placeholder='请输入酬谢-不限于money' bindinput="inputSalary"></input>
+    </view>
+    <view class="item">
+      <label>联系方式:</label>
+      <input class="inputContact" placeholder='请输入联系方式-建议微信' bindinput="inputWx"></input>
+    </view>
+  </view>
+
+  <!-- 按钮中套选择器 -->
+
+  <button class="button_b">
+    <view>
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view wx:if="{{unclick}}">
+          请选择跑腿附近点
+        </view>
+        <view wx:if="{{!unclick}}">
+          当前选择：{{array[index]}}
+        </view>
+      </picker>
+    </view>
+  </button>
+
+  
+  <view>
+    <button class="complete" bindtap="complete">完成</button>
+  </view>
+</view>

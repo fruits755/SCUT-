@@ -1,0 +1,29 @@
+<!-- 引入wxs脚本 -->
+<wxs src="../../wxs/subutil.wxs" module="tools" />
+<!-- 内容显示 -->
+<view class='display'>
+  <image class='background' src="{{backPhoto}}" mode="aspectFill"></image>
+  <view class='display1'>
+    <image class="img" src='{{list.headPhoto}}' mode='heightFix'></image>
+    <view class="show1">
+      <text class='style'>{{list.name}}</text>
+    </view>
+    <view class="show2">
+      <text class='style1'>商品价格:<text class="style0">{{list.value}}</text></text>
+    </view>
+    <view class="show3">
+    <text class="stylea">商品描述:<text class="style0">{{list.Des}}</text></text>
+    </view>
+    <view class="show4">
+      <text class='style1'>微信号:<text class="style0">{{tools.sub(list.wx,1,1)}}</text></text>
+      <button bindtap='onClick'  class="wxcopy">
+        <text class="copy">复制</text>
+      </button>
+    </view>
+    <view class="goods">
+      <view wx:for="{{list.goodsPhoto}}">
+        <image bind:tap="expand" src='{{item}}' class="goodsPhoto" data-index="{{index}}"></image>
+      </view>
+    </view>
+  </view>
+</view>

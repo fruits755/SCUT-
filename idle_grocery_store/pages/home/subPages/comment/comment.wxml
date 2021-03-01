@@ -1,0 +1,10 @@
+<!--pages/home/subPages/comment/comment.wxml-->
+<view class="box">
+  <view class="item">
+    <label>留言信息:</label>
+    <input class="inputMassage" placeholder='请输入留言' bindinput="inputMassage" bindconfirm="complete" confirm-type="done" type="text"></input>
+  </view>
+  <view>
+    <button class="complete" bind:tap="complete">确认</button>
+  </view>
+</view>

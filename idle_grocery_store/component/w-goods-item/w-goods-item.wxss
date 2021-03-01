@@ -1,0 +1,95 @@
+.img{
+  width:120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  top: 10rpx;
+}
+.goods-item{
+  height: auto;
+  position: relative;
+  border-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(184, 183, 183);
+}
+.goodsPhoto{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 240rpx;
+  right: 40rpx;
+  z-index: 0;
+}
+.dispaly{
+  display: flex;
+  position: absolute;
+}
+.dispaly{
+  display: flex;
+}
+.style{
+  font-size:32rpx;
+  color:black;
+  width: 95%;
+  display: -webkit-box;  /*设置为弹性盒子*/
+  -webkit-line-clamp: 1;  /*最多显示1行*/
+  overflow: hidden;  /*超出隐藏*/
+  text-overflow: ellipsis;  /*超出显示为省略号*/
+  -webkit-box-orient: vertical;
+  word-break: break-all;  /*强制英文单词自动换行*/
+}
+.style1{
+  font-size:0.9rem;
+  color:rgb(7, 176, 243);
+}
+.show{
+  width: 100%;
+}
+.show0{
+  width: 100%;
+  position: absolute;
+}
+.show1{
+  width: 630rpx;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 110rpx;
+  left: 130rpx;
+}
+.show2{
+  width: 630rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  position: relative;
+  top: 200rpx;
+  left: 100rpx;
+}
+.visitor{
+  display: flex;
+  flex-direction: row;
+  width: 70px;
+  height: 3%;
+  font-size:25rpx;
+  position: relative;
+  left: 300rpx;
+  bottom: 17rpx;
+}
+
+.types{
+  height: 3%;
+  font-size:30rpx;
+  color:rgb(7, 176, 243);
+  position: relative;
+  margin-left: 60rpx;
+}
+.time{
+  display: flex;
+  flex-direction: row;
+  font-size:26rpx;
+  position: relative;
+  margin-left: 20rpx;
+}

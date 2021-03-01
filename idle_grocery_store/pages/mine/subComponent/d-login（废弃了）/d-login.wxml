@@ -1,0 +1,14 @@
+<view class="loginbutton">
+  <button wx:if="{{login}}" type="primary" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+    登录
+  </button>
+</view>
+<!-- 用户信息 -->
+<view class="userInfo">
+  <view class="userInfo-image">
+    <image class="image" src="{{userInfo.img}}" mode="scaleToFill" />
+  </view>
+  <view class="nickName">
+    <text>{{userInfo.nickName}}</text>
+  </view>
+</view>

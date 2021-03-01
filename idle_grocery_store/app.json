@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/mine/subPages/myLdle/myLdle",
+    "pages/help/subPages/tanchuang/tanchuang",
+    "pages/help/help",  
+    "pages/mine/mine",
+    "pages/mine/subPages/aboutUs/aboutUs",
+    "pages/mine/subPages/myRequire/myRequire",
+    "pages/mine/subPages/myInf/myInf",
+    "pages/require/require",
+    "pages/home/subPages/question/question",
+    "pages/home/subPages/detail/detail",
+    "pages/home/subPages/comment/comment"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/resources/image/icon/home.png",
+        "selectedIconPath": "/resources/image/icon/home_active.png"
+      },
+      {
+        "pagePath": "pages/require/require",
+        "text": "闲置",
+        "iconPath": "/resources/image/icon/sell.png",
+        "selectedIconPath": "/resources/image/icon/sell_active.png"
+      },
+      {
+        "pagePath": "pages/help/help",
+        "text": "跑腿",
+        "iconPath": "/resources/image/icon/help.png",
+        "selectedIconPath": "/resources/image/icon/help_active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/resources/image/icon/mine.png",
+        "selectedIconPath": "/resources/image/icon/mine_active.png"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#7fffd4",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
